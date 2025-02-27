@@ -8,13 +8,13 @@ var FluminenseButtons = document.getElementsByClassName("FluminenseButton");
 var FlamengoButtons = document.getElementsByClassName("FlamengoButton");
 var BotafogoButtons = document.getElementsByClassName("BotafogoButton");
 var VascoButtons = document.getElementsByClassName("VascoButton");
-var VascoButtons = document.getElementsByClassName("CorinthiansButton");
+var CorinthiansButtons = document.getElementsByClassName("CorinthiansButton");
 
 var FluminenseBanner = document.getElementsByClassName("FluminenseBanner");
 var FlamengoBanner = document.getElementsByClassName("FlamengoBanner");
 var BotafogoBanner = document.getElementsByClassName("BotafogoBanner");
 var VascoBanner = document.getElementsByClassName("VascoBanner");
-var VascoBanner = document.getElementsByClassName("CorinthiansBanner");
+var CorinthiansBanner = document.getElementsByClassName("CorinthiansBanner");
 
 // Função para obter o saldo do localStorage
 function getBalance() {
@@ -131,7 +131,7 @@ function verifica_times() {
   setButtonStateBanner(FlamengoBanner, "Flamengo");
   setButtonStateBanner(VascoBanner, "Vasco");
   setButtonStateBanner(BotafogoBanner, "Botafogo");
-  setButtonStateBanner(CorinthiansBanner, "Botafogo");
+  setButtonStateBanner(CorinthiansBanner, "Corinthians");
 }
 
 function setButtonState(images, teamName) {

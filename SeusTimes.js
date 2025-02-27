@@ -19,6 +19,7 @@ function startGame() {
   const flamengoSelected = localStorage.getItem("Flamengo") === "true";
   const vascoSelected = localStorage.getItem("Vasco") === "true";
   const botafogoSelected = localStorage.getItem("Botafogo") === "true";
+  const CorinthiansSelected = localStorage.getItem("Corinthians") === "true";
 
   if (fluminenseSelected) {
     const fluminenseContainer = createTeamContainer("fluminense");

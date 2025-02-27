@@ -52,7 +52,7 @@ function startGame(playerTeam, opponentTeam) {
         document.body.style.backgroundImage = `url('${novaImagem}')`;
         break;
       case "Corinthians":
-        Vasco.sort(() => Math.random() - 0.5);
+        Corinthians.sort(() => Math.random() - 0.5);
         playerHand = Corinthians.slice(0, 7);
         var novaImagem = "Corinthians/Corinthiansfundo.webp";
         document.body.style.backgroundImage = `url('${novaImagem}')`;
@@ -79,7 +79,7 @@ function startGame(playerTeam, opponentTeam) {
         computerHand = Vasco.slice(0, 7);
         break;
         case "Corinthians":
-          Vasco.sort(() => Math.random() - 0.5);
+          Corinthians.sort(() => Math.random() - 0.5);
           computerHand = Corinthians.slice(0, 7);
           break;  
       // Adicione mais casos conforme necessário para outros times
