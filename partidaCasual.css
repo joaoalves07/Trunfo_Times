@@ -1,0 +1,92 @@
+/* Adicione seus estilos aqui conforme necessário */
+#menu-container {
+    margin: 20px;
+    text-align: center;
+  }
+
+  .player-button, .opponent-button {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+    border-radius: 10px;
+  }
+
+  .player-button:hover{
+    background-color: rgb(79, 79, 255);
+  }
+
+  .opponent-button:hover{
+    background-color: rgb(255, 62, 62);
+  }
+
+  .player-button.selected {
+    border-color: #000000;
+    background-color: blue;
+    transform: scale(1.2);
+    color: white;
+    border-radius: 10px;
+  }
+
+  .opponent-button.selected {
+    border-color: #000000;
+    background-color: Red;
+    transform: scale(1.2);
+    color: white;
+    border-radius: 10px;
+  }
+
+  #start-game-btn {
+    display: block;
+    margin: 15px auto;
+    font-size: 18px;
+    font-weight:bold;
+    cursor: pointer;
+    background-color: #00a10d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  #start-game-btn:hover {
+    display: block;
+    margin: 15px auto;
+    font-size: 18px;
+    font-weight:bold;
+    cursor: pointer;
+    background-color: #005507;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  #start-game-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+
+
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .disabled {
+    cursor: default;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.disabled:hover {
+  background-color: white;
+}
